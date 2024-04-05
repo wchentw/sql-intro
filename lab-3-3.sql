@@ -20,3 +20,5 @@ FROM teams
 WHERE year >= 1960
 GROUP by year
 ORDER BY MAX(wins) DESC;
+
+--if there's another team that also had 116 wins in 2001, the second team won't be shown
